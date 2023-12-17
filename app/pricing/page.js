@@ -1,166 +1,125 @@
 /**
  * v0 by Vercel.
- * @see https://v0.dev/t/mNkge6uXQ8D
+ * @see https://v0.dev/t/rRBlufM
  */
-import Link from "next/link";
-import { CardHeader, CardContent, Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button"
 
 export default function Component() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <header className="px-4 lg:px-6 h-14 flex items-center">
-        <Link className="flex items-center justify-center" href="#">
-          <span className="text-xl font-semibold">Lupleg</span>
-          <span className="sr-only">Lupleg</span>
-        </Link>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link
-            className="text-sm font-medium hover:underline underline-offset-4"
-            href="#"
-          >
-            Home
-          </Link>
-          <Link
-            className="text-sm font-medium hover:underline underline-offset-4"
-            href="#"
-          >
-            Pricing
-          </Link>
-          <Link
-            className="text-sm font-medium hover:underline underline-offset-4"
-            href="#"
-          >
-            About Us
-          </Link>
-        </nav>
-      </header>
-      <main className="flex-1">
-        <section
-          className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-cover bg-center"
-          style={{
-            backgroundImage: '"url("/placeholder.svg?height=600&width=800")"',
-          }}
-        >
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-                  Pricing
-                </h1>
-                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Check out our affordable pricing plans. Choose the one that
-                  fits you best.
-                </p>
+    <section className="min-h-screen w-full py-12 bg-gradient-to-r from-gray-50 to-gray-100 dark:from-zinc-900 dark:to-zinc-800 flex items-center justify-center">
+      <div className="container px-4 md:px-6">
+        <div className="grid grid-cols-1 gap-6 mt-8 md:grid-cols-3 md:gap-8">
+          <div className="flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-300">
+            <div>
+              <h3 className="text-2xl font-bold text-center">Basic</h3>
+              <div className="mt-4 text-center text-zinc-600 dark:text-zinc-400">
+                <span className="text-4xl font-bold">$29</span>/ month
               </div>
+              <ul className="mt-4 space-y-2">
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
+                  720p Video Rendering
+                </li>
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
+                  2GB Cloud Storage
+                </li>
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
+                  Basic Video Templates
+                </li>
+              </ul>
+            </div>
+            <div className="mt-6">
+              <Button className="w-full">Get Started</Button>
             </div>
           </div>
-        </section>
-        <section className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter text-center sm:text-5xl">
-              Our Plans
-            </h2>
-            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              <Card>
-                <CardHeader>
-                  <h3 className="text-xl font-semibold">Basic Plan</h3>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-500">
-                    For the casual learner: Access to all courses, 5 downloads
-                    per month.
-                  </p>
-                  <p className="mt-4 font-bold text-2xl">$19.99/month</p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <h3 className="text-xl font-semibold">Premium Plan</h3>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-500">
-                    For the committed learner: Unlimited access to all courses
-                    and downloads, priority support.
-                  </p>
-                  <p className="mt-4 font-bold text-2xl">$49.99/month</p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <h3 className="text-xl font-semibold">Business Plan</h3>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-500">
-                    For businesses and teams: Everything in Premium, plus team
-                    management tools and data reporting.
-                  </p>
-                  <p className="mt-4 font-bold text-2xl">$99.99/month</p>
-                </CardContent>
-              </Card>
+          <div className="relative flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-purple-500">
+            <div className="px-3 py-1 text-sm text-white bg-gradient-to-r from-pink-500 to-purple-500 rounded-full inline-block absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+              Popular
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-center">Pro</h3>
+              <div className="mt-4 text-center text-zinc-600 dark:text-zinc-400">
+                <span className="text-4xl font-bold">$59</span>/ month
+              </div>
+              <ul className="mt-4 space-y-2">
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-2xs bg-green-500 rounded-full mr-2 p-1" />
+                  1080p Video Rendering
+                </li>
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
+                  10GB Cloud Storage
+                </li>
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
+                  Premium Video Templates
+                </li>
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
+                  Collaboration Tools
+                </li>
+              </ul>
+            </div>
+            <div className="mt-6">
+              <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500">Get Started</Button>
             </div>
           </div>
-        </section>
-        <section className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter text-center sm:text-5xl">
-              Frequently Asked Questions
-            </h2>
-            <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              <Card>
-                <CardHeader>
-                  <h3 className="text-xl font-semibold">
-                    How do I upgrade my plan?
-                  </h3>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-500">
-                    You can upgrade your plan at any time in your account
-                    settings.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <h3 className="text-xl font-semibold">
-                    Can I cancel my subscription?
-                  </h3>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-500">
-                    Yes, you can cancel your subscription at any time in your
-                    account settings.
-                  </p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <h3 className="text-xl font-semibold">
-                    Do you offer a free trial?
-                  </h3>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-500">
-                    Yes, we offer a 14-day free trial for our Premium Plan.
-                  </p>
-                </CardContent>
-              </Card>
+          <div className="flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-300">
+            <div>
+              <h3 className="text-2xl font-bold text-center">Enterprise</h3>
+              <div className="mt-4 text-center text-zinc-600 dark:text-zinc-400">
+                <span className="text-4xl font-bold">$99</span>/ month
+              </div>
+              <ul className="mt-4 space-y-2">
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
+                  4K Video Rendering
+                </li>
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
+                  Unlimited Cloud Storage
+                </li>
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
+                  Custom Video Templates
+                </li>
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
+                  Advanced Collaboration Tools
+                </li>
+                <li className="flex items-center">
+                  <CheckIcon className="text-white text-xs bg-green-500 rounded-full mr-2 p-1" />
+                  Dedicated Support
+                </li>
+              </ul>
+            </div>
+            <div className="mt-6">
+              <Button className="w-full">Get Started</Button>
             </div>
           </div>
-        </section>
-      </main>
-      <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-        <p className="text-xs text-gray-500 dark:text-gray-400">
-          © Lupleg. All rights reserved.
-        </p>
-        <nav className="sm:ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Terms of Service
-          </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Privacy
-          </Link>
-        </nav>
-      </footer>
-    </div>
-  );
+        </div>
+      </div>
+    </section>
+  )
+}
+
+function CheckIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <polyline points="20 6 9 17 4 12" />
+    </svg>
+  )
 }
