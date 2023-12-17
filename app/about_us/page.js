@@ -1,11 +1,7 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/ZcTTPqwR2Ha
- */
-import Link from "next/link"
-import { CardHeader, CardContent, Card } from "@/components/ui/card"
+import Link from "next/link";
+import { CardHeader, CardContent, Card } from "@/components/ui/card";
 
-export default function Component() {
+export default function About() {
   return (
     <div className="flex flex-col min-h-screen">
       <header className="px-4 lg:px-6 h-14 flex items-center">
@@ -14,13 +10,22 @@ export default function Component() {
           <span className="sr-only">Lupleg</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+          <Link
+            className="text-sm font-medium hover:underline underline-offset-4"
+            href="#"
+          >
             Home
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+          <Link
+            className="text-sm font-medium hover:underline underline-offset-4"
+            href="#"
+          >
             Pricing
           </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
+          <Link
+            className="text-sm font-medium hover:underline underline-offset-4"
+            href="#"
+          >
             About Us
           </Link>
         </nav>
@@ -47,7 +52,9 @@ export default function Component() {
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter text-center sm:text-5xl">Our Story</h2>
+            <h2 className="text-3xl font-bold tracking-tighter text-center sm:text-5xl">
+              Our Story
+            </h2>
             <div className="mt-8">
               <Card>
                 <CardHeader>
@@ -55,8 +62,8 @@ export default function Component() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-500">
-                    Our mission is to democratize education by making it accessible, engaging, and personalized for
-                    everyone.
+                    Our mission is to democratize education by making it
+                    accessible, engaging, and personalized for everyone.
                   </p>
                 </CardContent>
               </Card>
@@ -66,8 +73,9 @@ export default function Component() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-500">
-                    Our vision is to build a world where everyone, regardless of their background or circumstances, can
-                    have access to a quality education.
+                    Our vision is to build a world where everyone, regardless of
+                    their background or circumstances, can have access to a
+                    quality education.
                   </p>
                 </CardContent>
               </Card>
@@ -77,8 +85,8 @@ export default function Component() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-500">
-                    We believe in continuous learning, integrity, collaboration, and putting our learners at the heart
-                    of everything we do.
+                    We believe in continuous learning, integrity, collaboration,
+                    and putting our learners at the heart of everything we do.
                   </p>
                 </CardContent>
               </Card>
@@ -87,6 +95,5 @@ export default function Component() {
         </section>
       </main>
     </div>
-  )
+  );
 }
-

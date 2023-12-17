@@ -1,14 +1,10 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/yUicp6k83BB
- */
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { CardHeader, CardContent, Card } from "@/components/ui/card";
 import { Avatar } from "@/components/ui/avatar";
 import { Input } from "@/components/ui/input";
 
-export default function Component() {
+export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* <header className="px-4 lg:px-6 h-14 flex items-center">
