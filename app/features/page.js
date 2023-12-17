@@ -1,30 +1,8 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/rJN6lfT2KDa
- */
-import Link from "next/link"
-import { CardHeader, CardContent, Card } from "@/components/ui/card"
+import { CardHeader, CardContent, Card } from "@/components/ui/card";
 
 export default function Component() {
   return (
     <div className="flex flex-col min-h-screen">
-      <header className="px-4 lg:px-6 h-14 flex items-center">
-        <Link className="flex items-center justify-center" href="#">
-          <span className="text-xl font-semibold">Lupleg</span>
-          <span className="sr-only">Lupleg</span>
-        </Link>
-        <nav className="ml-auto flex gap-4 sm:gap-6">
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-            Home
-          </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-            Pricing
-          </Link>
-          <Link className="text-sm font-medium hover:underline underline-offset-4" href="#">
-            About Us
-          </Link>
-        </nav>
-      </header>
       <main className="flex-1">
         <section
           className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-cover bg-center"
@@ -39,7 +17,8 @@ export default function Component() {
                   Our Features
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Discover the capabilities that make Lupleg a unique learning platform.
+                  Discover the capabilities that make Lupleg a unique learning
+                  platform.
                 </p>
               </div>
             </div>
@@ -47,31 +26,44 @@ export default function Component() {
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter text-center sm:text-5xl">Features</h2>
+            <h2 className="text-3xl font-bold tracking-tighter text-center sm:text-5xl">
+              Features
+            </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
               <Card>
                 <CardHeader>
                   <h3 className="text-xl font-semibold">Interactive Content</h3>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-500">Engage with dynamic content that adjusts to your learning style.</p>
+                  <p className="text-gray-500">
+                    Engage with dynamic content that adjusts to your learning
+                    style.
+                  </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardHeader>
-                  <h3 className="text-xl font-semibold">Personalized Learning</h3>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-500">Experience a tailored learning journey that adapts to your progress.</p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardHeader>
-                  <h3 className="text-xl font-semibold">Data-Driven Insights</h3>
+                  <h3 className="text-xl font-semibold">
+                    Personalized Learning
+                  </h3>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-500">
-                    Track your progress and identify areas for improvement with our analytics.
+                    Experience a tailored learning journey that adapts to your
+                    progress.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card>
+                <CardHeader>
+                  <h3 className="text-xl font-semibold">
+                    Data-Driven Insights
+                  </h3>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-gray-500">
+                    Track your progress and identify areas for improvement with
+                    our analytics.
                   </p>
                 </CardContent>
               </Card>
@@ -80,6 +72,5 @@ export default function Component() {
         </section>
       </main>
     </div>
-  )
+  );
 }
-
