@@ -9,11 +9,11 @@ export default function Footer() {
           <h2 className="text-2xl font-semibold">Lupleg</h2>
           <p className="mt-4 text-gray-400">
             We are a team of creative individuals working together to bring you
-            the best SaaS solutions.
+            the best Education SaaS solutions to life.
           </p>
         </div>
         <div>
-          <h2 className="text-2xl font-semibold">Important Links</h2>
+          <h2 className="text-2xl font-semibold">Quick Links</h2>
           <ul className="mt-4 space-y-2">
             <li>
               <Link className="text-gray-400 hover:text-white" href="about_us">

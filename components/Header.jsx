@@ -41,6 +41,12 @@ export default function Component() {
           >
             Resources
           </Link>
+          <Link
+            className="text-gray-800 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
+            href="events"
+          >
+            Events
+          </Link>
         </nav>
       </div>
       {/* <div className="md:hidden">
