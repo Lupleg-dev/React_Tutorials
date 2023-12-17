@@ -29,12 +29,13 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link className="text-gray-400 hover:text-white" href="#">
+              <Link className="text-gray-400 hover:text-white" href="terms">
                 Terms of Service
               </Link>
             </li>
             <li>
-              <Link className="text-gray-400 hover:text-white" href="#">
+              <Link className="text-gray-400 hover:text-white" href="privacy_policy
+">
                 Privacy Policy
               </Link>
             </li>
