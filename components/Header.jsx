@@ -1,38 +1,115 @@
+"use client";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
 
-export default function Header() {
+export default function Component() {
   return (
-    <main className="container mx-auto px-4 py-8">
-      <header className="flex items-center justify-between">
-        <div className="flex items-center space-x-4">
-          <PuzzleIcon className="w-8 h-8" />
-          <h1 className="text-2xl font-bold">Lupleg</h1>
-        </div>
-        <nav>
-          <ul className="flex items-center space-x-4">
-            <li>
-              <Link className="text-gray-700 hover:text-gray-900" href="features">
-                Features
-              </Link>
-            </li>
-            <li>
-              <Link className="text-gray-700 hover:text-gray-900" href="/pricing">
-                Pricing
-              </Link>
-            </li>
-            <li>
-              <Link className="text-gray-700 hover:text-gray-900" href="/courses">
-                Courses
-              </Link>
-            </li>
-            <li>
-              <Button>Apply</Button>
-            </li>
-          </ul>
+    <header className="flex flex-wrap items-center justify-between p-6 bg-white dark:bg-gray-800">
+      <div className="flex items-center space-x-3">
+        <PuzzleIcon className="h-6 w-6 text-gray-800 dark:text-white" />
+        <Link
+          className="text-xl font-bold text-gray-800 dark:text-white"
+          href="/"
+        >
+          Lupleg
+        </Link>
+      </div>
+      <div className="hidden md:block">
+        <nav className="flex space-x-6">
+          <Link
+            className="text-gray-800 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
+            href="features"
+          >
+            Features
+          </Link>
+          <Link
+            className="text-gray-800 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
+            href="courses"
+          >
+            Courses
+          </Link>
+          <Link
+            className="text-gray-800 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
+            href="pricing"
+          >
+            Pricing
+          </Link>
+          <Link
+            className="text-gray-800 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
+            href="resources"
+          >
+            Resources
+          </Link>
         </nav>
-      </header>
-    </main>
+      </div>
+      {/* <div className="md:hidden">
+        <Button size="icon" variant="outline">
+          <MenuIcon className="h-6 w-6" />
+          <span className="sr-only">Toggle navigation menu</span>
+        </Button>
+      </div> */}
+      <div className="hidden md:block">
+        <Button>Get Started</Button>
+      </div>
+      <Sheet>
+        <SheetTrigger asChild>
+          <Button className="lg:hidden" size="icon" variant="outline">
+            <MenuIcon className="h-6 w-6" />
+            <span className="sr-only">Toggle navigation menu</span>
+          </Button>
+        </SheetTrigger>
+        <SheetContent side="left">
+          <div className="grid gap-2 py-6">
+            <Link
+              className="flex w-full items-center py-2 text-lg font-semibold"
+              href="features"
+            >
+              Features
+            </Link>
+            <Link
+              className="flex w-full items-center py-2 text-lg font-semibold"
+              href="courses"
+            >
+              Courses
+            </Link>
+            <Link
+              className="flex w-full items-center py-2 text-lg font-semibold"
+              href="pricing"
+            >
+              Pricing
+            </Link>
+            <Link
+              className="flex w-full items-center py-2 text-lg font-semibold"
+              href="resources"
+            >
+              Resources
+            </Link>
+          </div>
+        </SheetContent>
+      </Sheet>
+    </header>
+  );
+}
+
+function MenuIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <line x1="4" x2="20" y1="12" y2="12" />
+      <line x1="4" x2="20" y1="6" y2="6" />
+      <line x1="4" x2="20" y1="18" y2="18" />
+    </svg>
   );
 }
 

@@ -1,7 +1,3 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/XFxW2J9nqdF
- */
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
@@ -20,12 +16,15 @@ export default function Footer() {
           <h2 className="text-2xl font-semibold">Important Links</h2>
           <ul className="mt-4 space-y-2">
             <li>
-              <Link className="text-gray-400 hover:text-white" href="#">
+              <Link className="text-gray-400 hover:text-white" href="about_us">
                 About Us
               </Link>
             </li>
             <li>
-              <Link className="text-gray-400 hover:text-white" href="#">
+              <Link
+                className="text-gray-400 hover:text-white"
+                href="contact_us"
+              >
                 Contact
               </Link>
             </li>
