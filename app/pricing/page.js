@@ -1,8 +1,4 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/rRBlufM
- */
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui/button";
 
 export default function Component() {
   return (
@@ -63,7 +59,9 @@ export default function Component() {
               </ul>
             </div>
             <div className="mt-6">
-              <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500">Get Started</Button>
+              <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500">
+                Get Started
+              </Button>
             </div>
           </div>
           <div className="flex flex-col p-6 bg-white shadow-lg rounded-lg dark:bg-zinc-850 justify-between border border-gray-300">
@@ -102,7 +100,7 @@ export default function Component() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 function CheckIcon(props) {
@@ -121,5 +119,5 @@ function CheckIcon(props) {
     >
       <polyline points="20 6 9 17 4 12" />
     </svg>
-  )
+  );
 }
