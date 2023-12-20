@@ -47,9 +47,9 @@ export default function Component() {
               Weekly Coaching Calls
             </h2>
             <p className="mt-2 text-sm text-gray-600">
-              Every week, Lupleg Team will deliver a Full Stack Mastermind coaching
-              call which many describe as "Worth more than a University Degree
-              itself!", so buckle up!
+              Every week, Lupleg Team will deliver a Full Stack Mastermind
+              coaching call which many describe as "Worth more than a University
+              Degree itself!", so buckle up!
             </p>
           </div>
           <div className="border border-gray-200 shadow-lg p-4 rounded-lg">
@@ -90,8 +90,8 @@ export default function Component() {
           <div className="border border-gray-200 shadow-lg p-4 rounded-lg">
             <PiggyBankIcon className="text-green-500 w-16 h-16 mx-auto" />
             <h2 className="mt-4 text-lg font-semibold text-center">
-              Everything you need to go from Beginner to landing your first of many
-              $$$'s
+              Everything you need to go from Beginner to landing your first of
+              many $$$'s
             </h2>
             <p className="mt-2 text-sm text-gray-600">
               We teach you how to take your skill & passion for programming and
@@ -110,7 +110,7 @@ export default function Component() {
         </div>
         <div className="mt-4">
           <h3 className="text-xl font-semibold text-center">
-          Beginner to Full Stack Hero Modules
+            Beginner to Full Stack Hero Modules
           </h3>
           <p className="mt-1 text-center text-gray-500">
             Additional course content will be released and updated weekly!
@@ -118,49 +118,68 @@ export default function Component() {
         </div>
       </div>
       <div className="bg-white p-8">
-      
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div className="space-y-4">
-          <DribbbleIcon className="h-[100px] w-[100px] mx-auto" />
-          <h4 className="text-xl font-semibold text-center">REACT BASICS 101</h4>
-          <p className="text-center">It's what you all have been asking for!</p>
-          <Button className="block mx-auto">Get this Module for FREE!</Button>
-        </div>
-        <div className="space-y-4">
-          <CodepenIcon className="h-[100px] w-[100px] mx-auto" />
-          <h4 className="text-xl font-semibold text-center">WEB DEV ESSENTIALS</h4>
-          <p className="text-center">
-            If you're starting from absolute ZERO, we got you! We are going to cover HTML, CSS, Javascript and a ton of
-            extra's that will propel you into the world of web development!
-          </p>
-        </div>
-        <div className="space-y-4">
-          <CodepenIcon className="h-[100px] w-[100px] mx-auto" />
-          <h4 className="text-xl font-semibold text-center">CSS MASTERY</h4>
-          <p className="text-center">
-            Flexbox, CSS Grid, Bootstrap, Material-UI + SO MUCH MORE to make your website a looker and the next big hit!
-          </p>
-        </div>
-        <div className="space-y-4">
-          <CodepenIcon className="h-[100px] w-[100px] mx-auto" />
-          <h4 className="text-xl font-semibold text-center">JAVASCRIPT MASTERY</h4>
-          <p className="text-center">
-            Master the programming language which redefined the web. From the fundamentals to the complicated parts, we
-            got you covered!
-          </p>
-        </div>
-        <div className="space-y-4">
-          <CodepenIcon className="h-[100px] w-[100px] mx-auto" />
-          <h4 className="text-xl font-semibold text-center">SERVER SIDE RENDERING FOR NOOBS</h4>
-          <p className="text-center">SSR is made simple with the latest and the greatest Next.js 14!</p>
-        </div>
-        <div className="space-y-4">
-          <DribbbleIcon className="h-[100px] w-[100px] mx-auto" />
-          <h4 className="text-xl font-semibold text-center">THE COMPLETE REACT GUIDE</h4>
-          <p className="text-center">EVERYTHING in React. We got you covered. Even TESTING!</p>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="space-y-4">
+            <DribbbleIcon className="h-[100px] w-[100px] mx-auto" />
+            <h4 className="text-xl font-semibold text-center">
+              REACT BASICS 101
+            </h4>
+            <p className="text-center">
+              It's what you all have been asking for!
+            </p>
+            <Button className="block mx-auto mt-4 px-4 py-2 bg-black text-white  rounded-md hover:bg-black">
+              Get this Module for FREE!
+            </Button>
+          </div>
+          <div className="space-y-4">
+            <CodepenIcon className="h-[100px] w-[100px] mx-auto" />
+            <h4 className="text-xl font-semibold text-center">
+              WEB DEV ESSENTIALS
+            </h4>
+            <p className="text-center">
+              If you're starting from absolute Beginner, we got you! We are going to
+              cover HTML, CSS, Javascript and a ton of extra's that will propel
+              you into the world of web development!
+            </p>
+          </div>
+          <div className="space-y-4">
+            <CodepenIcon className="h-[100px] w-[100px] mx-auto" />
+            <h4 className="text-xl font-semibold text-center">CSS MASTERY</h4>
+            <p className="text-center">
+              Flexbox, CSS Grid, Bootstrap, Material-UI + SO MUCH MORE to make
+              your website a looker and the next big hit!
+            </p>
+          </div>
+          <div className="space-y-4">
+            <CodepenIcon className="h-[100px] w-[100px] mx-auto" />
+            <h4 className="text-xl font-semibold text-center">
+              JAVASCRIPT MASTERY
+            </h4>
+            <p className="text-center">
+              Master the programming language which redefined the web. From the
+              fundamentals to the complicated parts, we got you covered!
+            </p>
+          </div>
+          <div className="space-y-4">
+            <CodepenIcon className="h-[100px] w-[100px] mx-auto" />
+            <h4 className="text-xl font-semibold text-center">
+              SERVER SIDE RENDERING FOR NOOBS
+            </h4>
+            <p className="text-center">
+              SSR is made simple with the latest and the greatest Next.js 14!
+            </p>
+          </div>
+          <div className="space-y-4">
+            <DribbbleIcon className="h-[100px] w-[100px] mx-auto" />
+            <h4 className="text-xl font-semibold text-center">
+              THE COMPLETE REACT GUIDE
+            </h4>
+            <p className="text-center">
+              EVERYTHING in React. We got you covered. Even TESTING!
+            </p>
+          </div>
         </div>
       </div>
-    </div>
     </div>
   );
 }
@@ -316,9 +335,5 @@ function CodepenIcon(props) {
       <polyline points="2 15.5 12 8.5 22 15.5" />
       <line x1="12" x2="12" y1="2" y2="8.5" />
     </svg>
-  )
+  );
 }
-
-
-
-
