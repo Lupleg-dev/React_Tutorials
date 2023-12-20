@@ -37,8 +37,8 @@ export default function Component() {
             <h2 className="font-bold text-lg mb-4">Resources</h2>
             <ul className="space-y-2">
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Articles
+                <a className="text-gray-600 hover:text-gray-900" href="https://ac.lupleg.website">
+                Academy
                 </a>
               </li>
               <li>
