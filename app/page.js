@@ -100,7 +100,7 @@ export default function Component() {
             </p>
           </div>
         </div>
-        <div className="mt-8">
+        <div className="mt-8 pt-10">
           <h2 className="text-2xl font-bold text-center">
             What's Inside Beginner to Full Stack Hero?
           </h2>
@@ -117,6 +117,50 @@ export default function Component() {
           </p>
         </div>
       </div>
+      <div className="bg-white p-8">
+      
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="space-y-4">
+          <DribbbleIcon className="h-[100px] w-[100px] mx-auto" />
+          <h4 className="text-xl font-semibold text-center">REACT BASICS 101</h4>
+          <p className="text-center">It's what you all have been asking for!</p>
+          <Button className="block mx-auto">Get this Module for FREE!</Button>
+        </div>
+        <div className="space-y-4">
+          <CodepenIcon className="h-[100px] w-[100px] mx-auto" />
+          <h4 className="text-xl font-semibold text-center">WEB DEV ESSENTIALS</h4>
+          <p className="text-center">
+            If you're starting from absolute ZERO, we got you! We are going to cover HTML, CSS, Javascript and a ton of
+            extra's that will propel you into the world of web development!
+          </p>
+        </div>
+        <div className="space-y-4">
+          <CodepenIcon className="h-[100px] w-[100px] mx-auto" />
+          <h4 className="text-xl font-semibold text-center">CSS MASTERY</h4>
+          <p className="text-center">
+            Flexbox, CSS Grid, Bootstrap, Material-UI + SO MUCH MORE to make your website a looker and the next big hit!
+          </p>
+        </div>
+        <div className="space-y-4">
+          <CodepenIcon className="h-[100px] w-[100px] mx-auto" />
+          <h4 className="text-xl font-semibold text-center">JAVASCRIPT MASTERY</h4>
+          <p className="text-center">
+            Master the programming language which redefined the web. From the fundamentals to the complicated parts, we
+            got you covered!
+          </p>
+        </div>
+        <div className="space-y-4">
+          <CodepenIcon className="h-[100px] w-[100px] mx-auto" />
+          <h4 className="text-xl font-semibold text-center">SERVER SIDE RENDERING FOR NOOBS</h4>
+          <p className="text-center">SSR is made simple with the latest and the greatest Next.js 14!</p>
+        </div>
+        <div className="space-y-4">
+          <DribbbleIcon className="h-[100px] w-[100px] mx-auto" />
+          <h4 className="text-xl font-semibold text-center">THE COMPLETE REACT GUIDE</h4>
+          <p className="text-center">EVERYTHING in React. We got you covered. Even TESTING!</p>
+        </div>
+      </div>
+    </div>
     </div>
   );
 }
@@ -251,3 +295,30 @@ function UserIcon(props) {
     </svg>
   );
 }
+
+function CodepenIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2" />
+      <line x1="12" x2="12" y1="22" y2="15.5" />
+      <polyline points="22 8.5 12 15.5 2 8.5" />
+      <polyline points="2 15.5 12 8.5 22 15.5" />
+      <line x1="12" x2="12" y1="2" y2="8.5" />
+    </svg>
+  )
+}
+
+
+
+
