@@ -53,6 +53,7 @@ export default function Home() {
               </div>
               <div className="space-x-4">
                 <Button>Get Started</Button>
+                <button className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md">Get Started</button>
               </div>
             </div>
           </div>
