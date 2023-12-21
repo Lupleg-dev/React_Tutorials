@@ -270,8 +270,8 @@ export default function Component() {
             <h2 className="font-bold text-lg mb-4">Career building</h2>
             <ul className="space-y-2">
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Career paths
+                <a className="text-gray-600 hover:text-gray-900" href="https://intern.lupleg.website">
+                  Internship
                 </a>
               </li>
               <li>
