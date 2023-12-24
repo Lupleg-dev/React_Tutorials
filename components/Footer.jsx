@@ -283,13 +283,6 @@ export default function Component() {
                 <a className="text-gray-600 hover:text-gray-900" href="#">
                   Interview prep
                 </a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Professional certification
-                </a>
-              </li>
-              <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
                   Compare to bootcamps
                 </a>
