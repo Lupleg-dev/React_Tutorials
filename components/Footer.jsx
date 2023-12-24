@@ -37,8 +37,11 @@ export default function Component() {
             <h2 className="font-bold text-lg mb-4">Resources</h2>
             <ul className="space-y-2">
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="https://ac.lupleg.website">
-                Academy
+                <a
+                  className="text-gray-600 hover:text-gray-900"
+                  href="https://ac.lupleg.website"
+                >
+                  Academy
                 </a>
               </li>
               <li>
@@ -270,7 +273,10 @@ export default function Component() {
             <h2 className="font-bold text-lg mb-4">Career building</h2>
             <ul className="space-y-2">
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="https://intern.lupleg.website">
+                <a
+                  className="text-gray-600 hover:text-gray-900"
+                  href="https://intern.lupleg.website"
+                >
                   Internship
                 </a>
               </li>
@@ -285,11 +291,6 @@ export default function Component() {
                 </a>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
                   Compare to bootcamps
-                </a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Full Catalog
                 </a>
               </li>
               <li>
