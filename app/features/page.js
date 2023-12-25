@@ -4,7 +4,7 @@
  */
 import { Button } from "@/components/ui/button";
 
-export default function Component() {
+export default function Features() {
   return (
     <>
       <div className="w-full py-12 md:py-24 lg:py-32">
