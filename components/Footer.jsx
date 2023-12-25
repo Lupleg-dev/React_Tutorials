@@ -71,11 +71,6 @@ export default function Component() {
               </li>
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Videos
-                </a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
                   Workspaces
                 </a>
               </li>
@@ -177,11 +172,6 @@ export default function Component() {
                   Developer Tools
                 </a>
               </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  DevOps
-                </a>
-              </li>
 
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
@@ -227,11 +217,6 @@ export default function Component() {
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
                   C#
-                </a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Go
                 </a>
               </li>
               <li>
