@@ -49,12 +49,6 @@ export default function Component() {
           </Link>
         </nav>
       </div>
-      {/* <div className="md:hidden">
-        <Button size="icon" variant="outline">
-          <MenuIcon className="h-6 w-6" />
-          <span className="sr-only">Toggle navigation menu</span>
-        </Button>
-      </div> */}
       <div className="hidden md:block">
         <Button>Get Started</Button>
       </div>

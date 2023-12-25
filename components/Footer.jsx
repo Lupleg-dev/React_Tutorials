@@ -117,11 +117,6 @@ export default function Component() {
               </li>
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Discord
-                </a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
                   Events
                 </a>
               </li>
@@ -135,11 +130,6 @@ export default function Component() {
           <div className="col-span-1 md:col-span-1">
             <h2 className="font-bold text-lg mb-4">Subjects</h2>
             <ul className="space-y-2">
-              <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  AI
-                </a>
-              </li>
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
                   Cloud Computing
@@ -234,12 +224,6 @@ export default function Component() {
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
                   Python
-                </a>
-              </li>
-
-              <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Ruby
                 </a>
               </li>
               <li>
