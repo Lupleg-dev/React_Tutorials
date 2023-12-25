@@ -17,7 +17,7 @@ export default function Events() {
             50+ countries, 700+ events, 70K+ participants
           </h2>
           <p className="mb-8">
-            Participate in DeepLearning.AI events for the opportunity to network
+            Participate in Lupleg AI Hacks events for the opportunity to network
             with a diverse community of peers, learn best practices from
             industry leaders, get advice and hands-on practice from mentors,
             benefit from thought-provoking discussions, and more!
@@ -48,7 +48,7 @@ export default function Events() {
             <CardHeader>
               <CardTitle>Pie & AI: Pune - AI Hackathon</CardTitle>
               <CardDescription>
-                December 17, 2022 - Punes AI Hackathon! Build, connect, and
+                December 17, 2024 - Lusaka AI Hackathon! Build, connect, and
                 innovate with like-minded AI enthusiasts.
               </CardDescription>
             </CardHeader>
