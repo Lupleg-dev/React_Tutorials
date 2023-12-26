@@ -32,8 +32,7 @@ export default function Terms() {
             </p>
             <p className="my-4 text-sm">
               The term us or we refers to the owner of the website whose
-              registered office is [address]. Our company registration number is
-              [company registration number and place of registration]. The term
+              registered. The term
               you refers to the user or viewer of our website.
             </p>
             <p className="my-4 text-sm">
