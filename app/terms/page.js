@@ -23,7 +23,7 @@ export default function Terms() {
           </CardHeader>
           <CardContent className="px-10 py-6 text-gray-700">
             <p className="my-4 text-sm">
-              Welcome to our website. If you continue to browse and use this
+              Welcome to Lupleg Terms of use. If you continue to browse and use this
               website, you are agreeing to comply with and be bound by the
               following terms and conditions of use, which together with our
               privacy policy govern our relationship with you in relation to
