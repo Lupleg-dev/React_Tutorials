@@ -11,7 +11,7 @@ export default function Component() {
             <h2 className="font-bold text-lg mb-4">Company</h2>
             <ul className="space-y-2">
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
+                <a className="text-gray-600 hover:text-gray-900" href="about_us">
                   About
                 </a>
               </li>
@@ -62,11 +62,6 @@ export default function Component() {
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
                   Projects
-                </a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Workspaces
                 </a>
               </li>
               <li>
