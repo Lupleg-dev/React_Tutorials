@@ -72,8 +72,8 @@ export default function PrivacyPolicy() {
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-400">
             Email:
-            <Link className="underline text-blue-600 hover:text-blue-800" href="#">
-              info@company.com
+            <Link className="underline text-blue-600 hover:text-blue-800" href="mailto:writer@lupleg.website">
+              writer@lupleg.website
             </Link>
           </p>
         </CardContent>
