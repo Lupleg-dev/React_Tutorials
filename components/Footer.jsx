@@ -16,13 +16,13 @@ export default function Component() {
                 </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Careers
+                <a className="text-gray-600 hover:text-gray-900" href="contact_us">
+                   Contact us
                 </a>
               </li>
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Affiliates
+                Careers
                 </a>
               </li>
               <div className="flex space-x-2 mt-4">

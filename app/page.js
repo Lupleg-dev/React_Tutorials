@@ -122,7 +122,7 @@ export default function Component() {
           <div className="space-y-4">
             <DribbbleIcon className="h-[100px] w-[100px] mx-auto" />
             <h4 className="text-xl font-semibold text-center">
-              REACT BASICS 101
+              REACT BASICS HACKS
             </h4>
             <p className="text-center">
               It's what you all have been asking for!
