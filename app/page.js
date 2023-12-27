@@ -21,7 +21,7 @@ export default function Component() {
               </p>
             </div>
             <div className="space-x-4">
-              <Button className="mt-4 px-4 py-2 bg-black text-white  rounded-md">
+              <Button className="mt-4 px-4 py-2 bg-black hover:bg-black text-white  rounded-md">
                 Get Started
               </Button>
             </div>
