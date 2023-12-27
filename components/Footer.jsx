@@ -45,13 +45,13 @@ export default function Component() {
                 </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Blog
+                <a className="text-gray-600 hover:text-gray-900" href="privacy_policy">
+                  Privacy Policy
                 </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Cheatsheets
+                <a className="text-gray-600 hover:text-gray-900" href="terms">
+                  Term of Use
                 </a>
               </li>
               <li>
