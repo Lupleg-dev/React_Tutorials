@@ -45,25 +45,20 @@ export default function Component() {
                 </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="privacy_policy">
-                  Privacy Policy
+                <a
+                  className="text-gray-600 hover:text-gray-900"
+                  href="https://devcircleafrica.com"
+                >
+                  Podcasts
                 </a>
               </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-900" href="terms">
-                  Term of Use
-                </a>
-              </li>
+
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
                   Code challenges
                 </a>
               </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Docs
-                </a>
-              </li>
+
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
                   Projects
@@ -72,6 +67,19 @@ export default function Component() {
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
                   Workspaces
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-gray-600 hover:text-gray-900"
+                  href="privacy_policy"
+                >
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-900" href="terms">
+                  Term of Use
                 </a>
               </li>
             </ul>
