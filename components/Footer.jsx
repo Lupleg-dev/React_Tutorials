@@ -86,7 +86,10 @@ export default function Component() {
             <h2 className="font-bold text-lg mb-4 mt-6">Support</h2>
             <ul className="space-y-2">
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
+                <a
+                  className="text-gray-600 hover:text-gray-900"
+                  href="https://devcircleafrica.com/devhelp"
+                >
                   Help Center
                 </a>
               </li>
@@ -176,12 +179,6 @@ export default function Component() {
                   Machine Learning
                 </a>
               </li>
-
-              <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Mobile Development
-                </a>
-              </li>
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
                   Web Design
@@ -264,10 +261,7 @@ export default function Component() {
               </li>
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Interview prep
-                </a>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Compare to bootcamps
+                  Interview preparation
                 </a>
               </li>
               <li>
