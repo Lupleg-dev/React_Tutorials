@@ -13,7 +13,7 @@ export default function Events() {
     <div className="bg-white text-gray-700">
       <div className="container mx-auto px-4 py-8">
         <div className="text-center">
-          <h2 className="text-3xl font-bold mb-2">
+          <h2 className="text-3xl text-black font-bold mb-2">
             More countries and Participants around the world
           </h2>
           <p className="mb-8">
