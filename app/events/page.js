@@ -26,27 +26,27 @@ export default function Events() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div className="text-center">
             <TrophyIcon className="mx-auto mb-4 h-12 w-12 text-yellow-500" />
-            <h3 className="font-semibold mb-2">Expert Panels</h3>
+            <h3 className="font-semibold mb-2 text-black">Expert Panels</h3>
             <p>Get inspired by Tech leaders</p>
           </div>
           <div className="text-center">
             <CircleDotDashedIcon className="mx-auto mb-4 h-12 w-12 text-blue-500" />
-            <h3 className="font-semibold mb-2">AI Access</h3>
+            <h3 className="font-semibold mb-2 text-black">AI Access</h3>
             <p>Level up your career with AI practitioners</p>
           </div>
           <div className="text-center">
             <BarChartIcon className="mx-auto mb-4 h-12 w-12 text-red-500" />
-            <h3 className="font-semibold mb-2">Pie & AI Events</h3>
+            <h3 className="font-semibold mb-2 text-black">Pie & AI Events</h3>
             <p>Network with the global AI community</p>
           </div>
         </div>
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold mb-2">Find Events Near You</h2>
+          <h2 className="text-3xl font-bold mb-2 text-black">Find Events Near You</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Card className="w-full">
             <CardHeader>
-              <CardTitle>Pie & AI: Pune - AI Hackathon</CardTitle>
+              <CardTitle className="text-black">Pie & AI: Pune - AI Hackathon</CardTitle>
               <CardDescription>
                 December 17, 2024 - Lusaka AI Hackathon! Build, connect, and
                 innovate with like-minded AI enthusiasts.
@@ -58,7 +58,7 @@ export default function Events() {
           </Card>
           <Card className="w-full">
             <CardHeader>
-              <CardTitle>
+              <CardTitle className="text-black">
                 LIM Agent Fine-Tuning: Enhancing Task Automation with Weights &
                 Biases
               </CardTitle>
@@ -74,7 +74,7 @@ export default function Events() {
           </Card>
           <Card className="w-full">
             <CardHeader>
-              <CardTitle>
+              <CardTitle className="text-black">
                 Pie & AI: Muscat - the Impact of LIMs Across Various Industries
               </CardTitle>
               <CardDescription>
@@ -88,7 +88,7 @@ export default function Events() {
           </Card>
           <Card className="w-full">
             <CardHeader>
-              <CardTitle>
+              <CardTitle className="text-black">
                 Pie & AI: October City - Artificial Intelligence in Dentistry
               </CardTitle>
               <CardDescription>
