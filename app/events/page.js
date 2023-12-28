@@ -23,7 +23,7 @@ export default function Events() {
             benefit from thought provoking discussions, and more!
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div className="text-center">
             <TrophyIcon className="mx-auto mb-4 h-12 w-12 text-yellow-500" />
             <h3 className="font-semibold mb-2">Expert Panels</h3>
