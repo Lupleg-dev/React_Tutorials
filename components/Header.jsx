@@ -3,13 +3,13 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet";
 
-export default function Component() {
+export default function Header() {
   return (
     <header className="flex flex-wrap items-center justify-between p-6 bg-white dark:bg-gray-800">
       <div className="flex items-center space-x-3">
-        <PuzzleIcon className="h-6 w-6 text-gray-800 dark:text-white" />
+        <PuzzleIcon className="h-6 w-6 text-orange-500 dark:text-white" />
         <Link
-          className="text-xl font-bold text-gray-800 dark:text-white"
+          className="text-2xl font-bold text-black dark:text-white"
           href="/"
         >
           Lupleg
@@ -18,31 +18,31 @@ export default function Component() {
       <div className="hidden md:block">
         <nav className="flex space-x-6">
           <Link
-            className="text-gray-800 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
+            className="text-black dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
             href="features"
           >
             Features
           </Link>
           <Link
-            className="text-gray-800 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
+            className="text-black dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
             href="courses"
           >
             Courses
           </Link>
           <Link
-            className="text-gray-800 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
+            className="text-black dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
             href="pricing"
           >
             Pricing
           </Link>
           <Link
-            className="text-gray-800 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
+            className="text-black dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
             href="resources"
           >
             Resources
           </Link>
           <Link
-            className="text-gray-800 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
+            className="text-black dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200"
             href="events"
           >
             Events
