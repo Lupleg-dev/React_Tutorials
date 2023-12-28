@@ -49,8 +49,8 @@ export default function Component() {
           </Link>
         </nav>
       </div>
-      <div className="hidden md:block">
-        <Button>Get Started</Button>
+      <div className="hidden md:block  bg-black hover:bg-black rounded-md">
+        <Button className="text-white text-md">Apply Now</Button>
       </div>
       <Sheet>
         <SheetTrigger asChild>
@@ -85,6 +85,15 @@ export default function Component() {
             >
               Resources
             </Link>
+            <Link
+              className="flex w-full items-center py-2 text-lg font-semibold"
+              href="events"
+            >
+              Events
+            </Link>
+            <div className="flex items-center bg-black hover:bg-black rounded-md">
+              <Button className="text-white text-md">Apply Now</Button>
+            </div>
           </div>
         </SheetContent>
       </Sheet>
