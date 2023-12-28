@@ -14,20 +14,20 @@ export default function Events() {
       <div className="container mx-auto px-4 py-8">
         <div className="text-center">
           <h2 className="text-3xl font-bold mb-2">
-            50+ countries, 700+ events, 70K+ participants
+            More countries and Participants around the world
           </h2>
           <p className="mb-8">
             Participate in Lupleg AI Hacks events for the opportunity to network
             with a diverse community of peers, learn best practices from
             industry leaders, get advice and hands-on practice from mentors,
-            benefit from thought-provoking discussions, and more!
+            benefit from thought provoking discussions, and more!
           </p>
         </div>
         <div className="grid grid-cols-3 gap-8 mb-12">
           <div className="text-center">
             <TrophyIcon className="mx-auto mb-4 h-12 w-12 text-yellow-500" />
             <h3 className="font-semibold mb-2">Expert Panels</h3>
-            <p>Get inspired by AI leaders</p>
+            <p>Get inspired by Tech leaders</p>
           </div>
           <div className="text-center">
             <CircleDotDashedIcon className="mx-auto mb-4 h-12 w-12 text-blue-500" />
@@ -43,7 +43,7 @@ export default function Events() {
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold mb-2">Find Events Near You</h2>
         </div>
-        <div className="grid grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Card className="w-full">
             <CardHeader>
               <CardTitle>Pie & AI: Pune - AI Hackathon</CardTitle>
