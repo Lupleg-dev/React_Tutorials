@@ -8,7 +8,7 @@ export default function Component() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
           <div className="col-span-1 md:col-span-1">
-            <h2 className="font-bold text-lg mb-4">Company</h2>
+            <h2 className="font-bold text-xl mb-4">Company</h2>
             <ul className="space-y-2">
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="about_us">
@@ -34,7 +34,7 @@ export default function Component() {
             </ul>
           </div>
           <div className="col-span-1 md:col-span-1">
-            <h2 className="font-bold text-lg mb-4">Resources</h2>
+            <h2 className="font-bold text-xl mb-4">Resources</h2>
             <ul className="space-y-2">
               <li>
                 <a
@@ -78,7 +78,7 @@ export default function Component() {
                 </a>
               </li>
             </ul>
-            <h2 className="font-bold text-lg mb-4 mt-6">Support</h2>
+            <h2 className="font-bold text-xl mb-4 mt-6">Support</h2>
             <ul className="space-y-2">
               <li>
                 <a
@@ -91,7 +91,7 @@ export default function Component() {
             </ul>
           </div>
           <div className="col-span-1 md:col-span-1 border-r border-gray-200">
-            <h2 className="font-bold text-lg mb-4">Plans</h2>
+            <h2 className="font-bold text-xl mb-4">Plans</h2>
             <ul className="space-y-2">
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
@@ -109,7 +109,7 @@ export default function Component() {
                 </a>
               </li>
             </ul>
-            <h2 className="font-bold text-lg mb-4 mt-6">Community</h2>
+            <h2 className="font-bold text-xl mb-4 mt-6">Community</h2>
             <ul className="space-y-2">
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
@@ -134,7 +134,7 @@ export default function Component() {
             </ul>
           </div>
           <div className="col-span-1 md:col-span-1">
-            <h2 className="font-bold text-lg mb-4">Subjects</h2>
+            <h2 className="font-bold text-xl mb-4">Subjects</h2>
             <ul className="space-y-2">
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
@@ -187,7 +187,7 @@ export default function Component() {
             </ul>
           </div>
           <div className="col-span-1 md:col-span-1">
-            <h2 className="font-bold text-lg mb-4">Languages</h2>
+            <h2 className="font-bold text-xl mb-4">Languages</h2>
             <ul className="space-y-2">
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
@@ -239,7 +239,7 @@ export default function Component() {
             </ul>
           </div>
           <div className="col-span-1 md:col-span-1">
-            <h2 className="font-bold text-lg mb-4">Career building</h2>
+            <h2 className="font-bold text-xl mb-4">Career building</h2>
             <ul className="space-y-2">
               <li>
                 <a
