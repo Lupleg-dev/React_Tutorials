@@ -8,9 +8,9 @@ import { Button } from "@/components/ui/button";
 export default function Courses() {
   return (
     <main className="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
-      <section className="mb-8">
+      <section className="mb-12 text-center">
         <h1 className="text-3xl font-bold">Welcome to Our Learning Platform</h1>
-        <p className="mt-2 text-gray-600">
+        <p className="mt-4  text-gray-600">
           We offer a wide range of courses to help you master the skills you
           need to advance your career. Explore our courses below.
         </p>
