@@ -3,7 +3,7 @@
  * @see https://v0.dev/t/mqq2F8L0YbJ
  */
 import Link from "next/link";
-export default function Component() {
+export default function Footer() {
   return (
     <footer className="bg-gray-100 py-10">
       <div className="max-w-7xl mx-auto p-10 px-4 sm:px-6 lg:px-8">
