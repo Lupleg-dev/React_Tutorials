@@ -273,12 +273,15 @@ export default function Component() {
             </ul>
           </div>
         </div>
-        <div className="text-center text-md text-orange-500 mt-10">
+        {/* <div className="text-center text-md text-orange-500 mt-10">
           <p>
             Lup
             <span className="font-bold">Leg</span> from DevCircle Africa
           </p>
-        </div>
+        </div> */}
+      </div>
+      <div className="border-t border-gray-700 py-4 text-center text-gray-400">
+        <p>© Lupleg LLC. All rights reserved.</p>
       </div>
     </footer>
   );
