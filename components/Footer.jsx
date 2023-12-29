@@ -11,25 +11,31 @@ export default function Component() {
             <h2 className="font-bold text-xl mb-4">Company</h2>
             <ul className="space-y-2">
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="about_us">
+                <a
+                  className="text-gray-600 hover:text-gray-900"
+                  href="about_us"
+                >
                   About
                 </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="contact_us">
-                   Contact us
+                <a
+                  className="text-gray-600 hover:text-gray-900"
+                  href="contact_us"
+                >
+                  Contact us
                 </a>
               </li>
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
-                Careers
+                  Careers
                 </a>
               </li>
               <div className="flex space-x-2 mt-4">
-                <TwitterIcon className="text-gray-600 hover:text-gray-900" />
-                <FacebookIcon className="text-gray-600 hover:text-gray-900" />
-                <InstagramIcon className="text-gray-600 hover:text-gray-900" />
-                <YoutubeIcon className="text-gray-600 hover:text-gray-900" />
+                <TwitterIcon className="text-blue-400 hover:text-blue-400" />
+                <InstagramIcon className="text-orange-600 hover:text-orange-600" />
+                <FacebookIcon className="text-blue-600 hover:text-blue-600" />
+                <YoutubeIcon className="text-red-600 hover:text-red-600" />
               </div>
             </ul>
           </div>
@@ -59,11 +65,6 @@ export default function Component() {
                 </a>
               </li>
 
-              <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Projects
-                </a>
-              </li>
               <li>
                 <a
                   className="text-gray-600 hover:text-gray-900"
@@ -272,7 +273,7 @@ export default function Component() {
             </ul>
           </div>
         </div>
-        <div className="text-center text-gray-600 mt-10">
+        <div className="text-center text-md text-orange-500 mt-10">
           <p>
             Lup
             <span className="font-bold">Leg</span> from DevCircle Africa
@@ -280,26 +281,6 @@ export default function Component() {
         </div>
       </div>
     </footer>
-  );
-}
-
-function AppleIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z" />
-      <path d="M10 2c1 .5 2 2 2 5" />
-    </svg>
   );
 }
 
@@ -339,29 +320,6 @@ function InstagramIcon(props) {
       <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
       <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
       <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-    </svg>
-  );
-}
-
-function StoreIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7" />
-      <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
-      <path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4" />
-      <path d="M2 7h20" />
-      <path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7" />
     </svg>
   );
 }
