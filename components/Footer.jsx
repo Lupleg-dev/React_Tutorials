@@ -2,6 +2,7 @@
  * v0 by Vercel.
  * @see https://v0.dev/t/mqq2F8L0YbJ
  */
+import Link from "next/link";
 export default function Component() {
   return (
     <footer className="bg-gray-100 py-10">
@@ -32,10 +33,20 @@ export default function Component() {
                 </a>
               </li>
               <div className="flex space-x-2 mt-4">
-                <TwitterIcon className="text-blue-400 hover:text-blue-400" />
-                <InstagramIcon className="text-orange-600 hover:text-orange-600" />
-                <FacebookIcon className="text-blue-600 hover:text-blue-600" />
-                <YoutubeIcon className="text-red-600 hover:text-red-600" />
+                <Link href="https://twitter.com/Lupleg_dev">
+                  <TwitterIcon className="text-blue-400 hover:text-blue-400" />
+                </Link>
+                <Link href="#">
+                  <InstagramIcon className="text-orange-600 hover:text-orange-600" />
+                </Link>
+
+                <Link href="#">
+                  <FacebookIcon className="text-blue-600 hover:text-blue-600" />
+                </Link>
+
+                <Link href="#">
+                  <YoutubeIcon className="text-red-600 hover:text-red-600" />
+                </Link>
               </div>
             </ul>
           </div>
