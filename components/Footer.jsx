@@ -5,7 +5,7 @@
 export default function Component() {
   return (
     <footer className="bg-gray-100 py-10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto p-10 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-6 gap-8">
           <div className="col-span-1 md:col-span-1">
             <h2 className="font-bold text-xl mb-4">Company</h2>
@@ -280,8 +280,8 @@ export default function Component() {
           </p>
         </div> */}
       </div>
-      <div className="border-t border-gray-700 py-4 text-center text-gray-400">
-        <p>© Lupleg LLC. All rights reserved.</p>
+      <div className="border-t border-gray-800 py-4 text-center text-gray-400">
+        <p className="text-black">© Lupleg LLC. All rights reserved.</p>
       </div>
     </footer>
   );
