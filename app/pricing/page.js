@@ -121,7 +121,7 @@ export default function PricePlan() {
               </ul>
             </div>
             <div className="mt-6">
-              <Button className="w-full bg-gradient-to-r from-pink-500 to-purple-500">
+              <Button className="w-full text-white bg-gradient-to-r from-pink-500 to-purple-500">
                 Get Started
               </Button>
             </div>
