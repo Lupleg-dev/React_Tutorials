@@ -6,7 +6,7 @@ export default function Component() {
       <section
         className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-cover bg-center"
         style={{
-          backgroundImage: '"url("/placeholder.svg?height=600&width=800")"',
+          backgroundImage: '"url("/sample.jpg?height=600&width=800")"',
         }}
       >
         <div className="container px-4 md:px-6">
