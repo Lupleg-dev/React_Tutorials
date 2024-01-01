@@ -31,18 +31,19 @@ export default function About() {
             <div className="mt-8">
               <Card>
                 <CardHeader>
-                  <h3 className="text-xl font-semibold">Our Mission</h3>
+                  <h3 className="text-2xl font-semibold">Our Mission</h3>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-500">
                     Our mission is to democratize education by making it
-                    accessible, engaging, and personalized for everyone.
+                    accessible, engaging, and personalized for everyone 
+                    all around the world without challenges.
                   </p>
                 </CardContent>
               </Card>
               <Card>
                 <CardHeader>
-                  <h3 className="text-xl font-semibold">Our Vision</h3>
+                  <h3 className="text-2xl font-semibold">Our Vision</h3>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-500">
@@ -54,7 +55,7 @@ export default function About() {
               </Card>
               <Card>
                 <CardHeader>
-                  <h3 className="text-xl font-semibold">Our Values</h3>
+                  <h3 className="text-2xl font-semibold">Our Values</h3>
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-500">
