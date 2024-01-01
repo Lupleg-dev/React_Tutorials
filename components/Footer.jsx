@@ -124,23 +124,23 @@ export default function Footer() {
             <h2 className="font-bold text-xl mb-4 mt-6">Community</h2>
             <ul className="space-y-2">
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Chapters
+                <a className="text-gray-600 hover:text-gray-900" href="https://devcircleafrica.com/opensource">
+                  Open Source
                 </a>
               </li>
               <li>
                 <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Code Crew
+                  Lupleg Community
                 </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
+                <a className="text-gray-600 hover:text-gray-900" href="events">
                   Events
                 </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Forums
+                <a className="text-gray-600 hover:text-gray-900" href="https://forum.devcircleafrica.com">
+                  Community Forums
                 </a>
               </li>
             </ul>
