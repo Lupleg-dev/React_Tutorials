@@ -122,44 +122,45 @@ export default function Courses() {
         </Card>
       </div>
       <section className="mt-12">
-        <h2 className="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
+        <h2 className="text-2xl text-black font-bold mb-4">Frequently Asked Questions</h2>
         <div className="space-y-6">
-          <Card className="bg-white shadow-xl rounded-lg overflow-hidden">
+          <Card className="bg-black shadow-xl rounded-lg overflow-hidden">
             <CardHeader className="bg-gray-100 p-4 border-b border-gray-200">
               <h3 className="text-xl font-semibold">
                 How does the learning process work?
               </h3>
             </CardHeader>
-            <CardContent className="p-4">
+            <CardContent className="p-4 text-white">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                euismod elit in mi consectetur, sit amet ornare purus pulvinar.
+                If you are using Lupleg Academy as an invidual, you will need to
+                create an account and after that, you will be able to have
+                access to the learning platform.
               </p>
             </CardContent>
           </Card>
-          <Card className="bg-white shadow-xl rounded-lg overflow-hidden">
+          <Card className="bg-black shadow-xl rounded-lg overflow-hidden">
             <CardHeader className="bg-gray-100 p-4 border-b border-gray-200">
               <h3 className="text-xl font-semibold">
                 What is the refund policy?
               </h3>
             </CardHeader>
-            <CardContent className="p-4">
+            <CardContent className="p-4 text-white">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                euismod elit in mi consectetur, sit amet ornare purus pulvinar.
+                Yes if you consider getting a refund, we have a 30 days money
+                back either based on users subscription or by Custom.
               </p>
             </CardContent>
           </Card>
-          <Card className="bg-white shadow-xl rounded-lg overflow-hidden">
+          <Card className="bg-black shadow-xl rounded-lg overflow-hidden">
             <CardHeader className="bg-gray-100 p-4 border-b border-gray-200">
               <h3 className="text-xl font-semibold">
                 Can I switch my course midway?
               </h3>
             </CardHeader>
-            <CardContent className="p-4">
+            <CardContent className="p-4 text-white">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                euismod elit in mi consectetur, sit amet ornare purus pulvinar.
+                That's something we planning to add as some users may consider
+                changing courses but that will come in some near future.
               </p>
             </CardContent>
           </Card>
