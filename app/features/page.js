@@ -119,26 +119,35 @@ export default function Features() {
             </details>
             <details className="flex flex-col justify-center space-y-4">
               <summary className="text-xl font-bold cursor-pointer">
-                Question 4
+                What's the recruitment process?
               </summary>
               <p className="text-gray-500 md:text-base/relaxed lg:text-sm/relaxed xl:text-base/relaxed dark:text-gray-400">
-                Answer to question 4
+                Lupleg Academy is open for everyone who is will ing to learn.
+                But the process is a first come - first serve . But we have
+                structured the process smooth therefore at anytime you can
+                signUp.
               </p>
             </details>
             <details className="flex flex-col justify-center space-y-4">
               <summary className="text-xl font-bold cursor-pointer">
-                Question 5
+                If i decide to stop what happen
               </summary>
               <p className="text-gray-500 md:text-base/relaxed lg:text-sm/relaxed xl:text-base/relaxed dark:text-gray-400">
-                Answer to question 5
+                Well if you decide to stop you will still be able to access the
+                academy start where you left from. Unlike other platform that
+                delete your account.
               </p>
             </details>
             <details className="flex flex-col justify-center space-y-4">
               <summary className="text-xl font-bold cursor-pointer">
-                Question 6
+                Do lupleg offers internships?
               </summary>
               <p className="text-gray-500 md:text-base/relaxed lg:text-sm/relaxed xl:text-base/relaxed dark:text-gray-400">
-                Answer to question 6
+                Yes we do offer internships to top 5 well performing students
+                with a score of 90%, so what happen is when you are selcted for
+                internship you will be given a couple for challenges to perform
+                and once you completed then you will be assigned with a mentor
+                before you start.
               </p>
             </details>
           </div>
