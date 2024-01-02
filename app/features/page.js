@@ -80,11 +80,11 @@ export default function Features() {
       <div className="w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col justify-center space-y-4">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+            <div className="space-y-2 p-4">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl md:text-center">
                 Frequently Asked Questions
               </h2>
-              <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              <p className=" text-gray-500 md:text-center  md:pb-4 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 Here are some common questions about our platform.
               </p>
             </div>
