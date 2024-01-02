@@ -92,26 +92,29 @@ export default function Features() {
           <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-12 xl:grid-cols-2">
             <details className="flex flex-col justify-center space-y-4">
               <summary className="text-xl font-bold cursor-pointer">
-                Question 1
+                How can i access the platform easily without challenges.
               </summary>
               <p className="text-gray-500 md:text-base/relaxed lg:text-sm/relaxed xl:text-base/relaxed dark:text-gray-400">
-                Answer to question 1
+                You can go to the academy through the footer and signUp which
+                will take not less than 2 minutes to have an account.
               </p>
             </details>
             <details className="flex flex-col justify-center space-y-4">
               <summary className="text-xl font-bold cursor-pointer">
-                Question 2
+                Is Lupleg Academy free?
               </summary>
               <p className="text-gray-500 md:text-base/relaxed lg:text-sm/relaxed xl:text-base/relaxed dark:text-gray-400">
-                Answer to question 2
+                Yes currently Lupleg is free but it will soon introduce the
+                subscription which will only be available only as for SaaS.
               </p>
             </details>
             <details className="flex flex-col justify-center space-y-4">
               <summary className="text-xl font-bold cursor-pointer">
-                Question 3
+                How are the programes conducted?
               </summary>
               <p className="text-gray-500 md:text-base/relaxed lg:text-sm/relaxed xl:text-base/relaxed dark:text-gray-400">
-                Answer to question 3
+                Depending on the cohort, initially the programs is managed
+                entirely online but we are likely introducing onsite.
               </p>
             </details>
             <details className="flex flex-col justify-center space-y-4">
