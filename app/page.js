@@ -161,7 +161,7 @@ export default function Component() {
             </p>
           </div>
           <div className="space-y-4">
-            <CodepenIcon className="h-[100px] w-[100px] mx-auto" />
+            <UserIcon className="h-[100px] w-[100px] mx-auto" />
             <h4 className="text-xl font-semibold text-center">
               SERVER SIDE RENDERING FOR NOOBS
             </h4>
@@ -213,7 +213,7 @@ function DribbbleIcon(props) {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke="blue"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -304,7 +304,7 @@ function UserIcon(props) {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke="orange"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -324,7 +324,7 @@ function CodepenIcon(props) {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke="green"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
