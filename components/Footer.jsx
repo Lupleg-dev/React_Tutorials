@@ -28,7 +28,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
+                <a className="text-gray-600 hover:text-gray-900" href="https://devcircleafrica.com/careers">
                   Careers
                 </a>
               </li>
@@ -36,15 +36,15 @@ export default function Footer() {
                 <Link href="https://twitter.com/Lupleg_dev">
                   <TwitterIcon className="text-blue-400 hover:text-blue-400" />
                 </Link>
-                <Link href="#">
+                <Link href="https://instagram.com/marksikaundi">
                   <InstagramIcon className="text-orange-600 hover:text-orange-600" />
                 </Link>
 
-                <Link href="#">
+                <Link href="https://facebook.com/marksikaundi">
                   <FacebookIcon className="text-blue-600 hover:text-blue-600" />
                 </Link>
 
-                <Link href="#">
+                <Link href="https://youtube.com/devcircleafrica">
                   <YoutubeIcon className="text-red-600 hover:text-red-600" />
                 </Link>
               </div>
