@@ -21,8 +21,7 @@ export default function Resources() {
           <Card className="p-6 space-y-4 bg-gray-100 dark:bg-gray-800">
             <CardHeader className="text-xl font-semibold">
               Help Center
-              <Badge className="ml-2" variant="secondary">
-              </Badge>
+              <Badge className="ml-2" variant="secondary"></Badge>
             </CardHeader>
             <CardContent className="text-sm text-gray-500">
               Find answers to common questions and learn how to use Lupleg
@@ -35,9 +34,7 @@ export default function Resources() {
           <Card className="p-6 space-y-4 bg-gray-100 dark:bg-gray-800">
             <CardHeader className="text-xl font-semibold">
               Documentation
-              <Badge className="ml-2" variant="secondary">
-                
-              </Badge>
+              <Badge className="ml-2" variant="secondary"></Badge>
             </CardHeader>
             <CardContent className="text-sm text-gray-500">
               In-depth articles and guides on all features and functionality of
@@ -50,9 +47,7 @@ export default function Resources() {
           <Card className="p-6 space-y-4 bg-gray-100 dark:bg-gray-800">
             <CardHeader className="text-xl font-semibold">
               Tutorials
-              <Badge className="ml-2" variant="secondary">
-                
-              </Badge>
+              <Badge className="ml-2" variant="secondary"></Badge>
             </CardHeader>
             <CardContent className="text-sm text-gray-500">
               Step by step tutorials to help you make the most of Lupleg
