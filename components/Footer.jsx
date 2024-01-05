@@ -292,7 +292,7 @@ export default function Footer() {
         </div> */}
       </div>
       <div className="border-t border-gray-800 py-4 text-center text-gray-400">
-        <p className="text-black">© Lupleg LLC. All rights reserved.</p>
+        <p className="text-black">© Lupleg LLP. All rights reserved.</p>
       </div>
     </footer>
   );
