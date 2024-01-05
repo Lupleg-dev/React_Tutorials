@@ -22,7 +22,6 @@ export default function Resources() {
             <CardHeader className="text-xl font-semibold">
               Help Center
               <Badge className="ml-2" variant="secondary">
-                Help
               </Badge>
             </CardHeader>
             <CardContent className="text-sm text-gray-500">
@@ -37,7 +36,7 @@ export default function Resources() {
             <CardHeader className="text-xl font-semibold">
               Documentation
               <Badge className="ml-2" variant="secondary">
-                Docs
+                
               </Badge>
             </CardHeader>
             <CardContent className="text-sm text-gray-500">
@@ -52,7 +51,7 @@ export default function Resources() {
             <CardHeader className="text-xl font-semibold">
               Tutorials
               <Badge className="ml-2" variant="secondary">
-                Tutorial
+                
               </Badge>
             </CardHeader>
             <CardContent className="text-sm text-gray-500">
