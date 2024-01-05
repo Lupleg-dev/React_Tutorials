@@ -12,8 +12,9 @@ export default function Resources() {
             Lupleg Education Resources
           </h1>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400">
-            Discover more about our services, read useful articles, and access
-            helpful tools.
+            Discover more about how best you can do self service without need of
+            supports We have compiled documentations and many others resources
+            you may find of help.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -71,7 +72,7 @@ export default function Resources() {
             Check out some of our most popular articles to help you get started.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           <a className="group" href="#">
             <Badge
               className="hover:bg-gray-100/50 dark:hover:bg-gray-800/50"
