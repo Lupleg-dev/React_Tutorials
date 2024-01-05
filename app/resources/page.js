@@ -7,7 +7,7 @@ export default function Resources() {
   return (
     <main className="w-full py-12 px-4 md:px-6 lg:px-8">
       <section className="container mx-auto space-y-8">
-        <div className="space-y-3 text-center">
+        <div className="space-y-3 p-20 text-center">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
             Lupleg Education Resources
           </h1>
