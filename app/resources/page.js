@@ -9,7 +9,7 @@ export default function Resources() {
       <section className="container mx-auto space-y-8">
         <div className="space-y-3 p-20 text-center">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
-            Lupleg Education Resources
+            Lupleg Education Platform
           </h1>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-gray-400">
             Discover more about how best you can do self service without need of
