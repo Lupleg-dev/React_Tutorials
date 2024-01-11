@@ -277,8 +277,8 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-900" href="#">
-                  Roadmap
+                <a className="text-gray-600 hover:text-gray-900" href="documentation">
+                  Docs
                 </a>
               </li>
             </ul>
