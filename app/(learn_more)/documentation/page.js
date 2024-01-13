@@ -4,7 +4,7 @@
  */
 import Link from "next/link";
 
-export default function Component() {
+export default function Documentation() {
   return (
     <div className="flex min-h-screen">
       <aside className="hidden lg:block w-64 bg-gray-100 dark:bg-gray-800 p-4">
