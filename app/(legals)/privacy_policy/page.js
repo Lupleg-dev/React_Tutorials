@@ -1,87 +1,89 @@
+/**
+ * v0 by Vercel.
+ * @see https://v0.dev/t/Gup2ic8Tmng
+ */
+"use client"
+import {
+  CardTitle,
+  CardHeader,
+  CardContent,
+  CardFooter,
+  Card,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 
-import { CardHeader, CardContent, Card } from "@/components/ui/card"
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-
-export default function PrivacyPolicy() {
+export default function Terms() {
   return (
-    <main className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold text-center mb-8">Privacy Policy</h1>
-      <Card className="mb-8">
-        <CardHeader>
-          <h2 className="text-2xl font-semibold">Introduction</h2>
-        </CardHeader>
-        <CardContent>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            We are committed to respecting your privacy. This policy details the information we collect, how we use it,
-            and your rights regarding that information.
-          </p>
-        </CardContent>
-      </Card>
-      <Card className="mb-8">
-        <CardHeader>
-          <h2 className="text-2xl font-semibold">Data Collection</h2>
-        </CardHeader>
-        <CardContent>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            We collect various types of information: voluntary information (like your name, email, and address),
-            automatic information (like user activity and cookies), and information from third parties.
-          </p>
-        </CardContent>
-      </Card>
-      <Card className="mb-8">
-        <CardHeader>
-          <h2 className="text-2xl font-semibold">Data Usage</h2>
-        </CardHeader>
-        <CardContent>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            The data we collect is used to improve our services, personalize your experience, conduct marketing, comply
-            with legal obligations, and other business purposes.
-          </p>
-        </CardContent>
-      </Card>
-      <Card className="mb-8">
-        <CardHeader>
-          <h2 className="text-2xl font-semibold">Cookies</h2>
-        </CardHeader>
-        <CardContent>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            We use cookies and similar technologies to recognize your repeat visits and preferences, as well as to
-            measure the effectiveness of campaigns and analyze traffic.
-          </p>
-        </CardContent>
-      </Card>
-      <Card className="mb-8">
-        <CardHeader>
-          <h2 className="text-2xl font-semibold">Third-Party Links</h2>
-        </CardHeader>
-        <CardContent>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            Our services may link to third-party websites that are not controlled by us. We recommend you to review the
-            privacy policy of every site you visit.
-          </p>
-        </CardContent>
-      </Card>
-      <Card className="mb-8">
-        <CardHeader>
-          <h2 className="text-2xl font-semibold">Contact Information</h2>
-        </CardHeader>
-        <CardContent>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            If you have any questions about this policy or our practices, please contact us at:
-          </p>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
-            Email:
-            <Link className="underline text-blue-600 hover:text-blue-800" href="mailto:writer@lupleg.website">
-              writer@lupleg.website
-            </Link>
-          </p>
-        </CardContent>
-      </Card>
-      <div className="flex justify-center mt-8">
-        <Button variant="outline">Accept</Button>
-      </div>
-    </main>
-  )
-}
+    <main className="w-full h-full bg-gray-50 py-12 px-6 md:px-12">
+      <section className="container mx-auto">
+        <Card className="max-w-2xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+          <CardHeader className="flex justify-center items-center bg-black text-white py-5">
+            <CardTitle className="text-2xl uppercase font-bold">
+              Privacy Policy
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="px-10 py-6 text-gray-700">
+            <p className="my-4 text-sm">
+              Welcome to Lupleg Privacy Policy. If you continue to browse and use this
+              website, you are agreeing to comply with and be bound by the
+              following terms and conditions of use, which together with our
+              privacy policy govern our relationship with you in relation to
+              this website. If you disagree with any part of these terms and
+              conditions, please do not use our website.
+            </p>
+            <p className="my-4 text-sm">
+              The privacy policy of this website is subject to the following terms of use:
+              <ul className="list-disc list-inside mt-4 ml-5 text-sm">
+                <li>
+                  The content of the pages of this website is for your general
+                  information and use only. It is subject to change without
+                  notice.
+                </li>
+                <li>
+                  This website uses cookies to monitor browsing preferences. If
+                  you do allow cookies to be used, the following personal
+                  information may be stored by us for use by third parties.
+                </li>
+                <li>
+                  Neither we nor any third parties provide any warranty or
+                  guarantee as to the accuracy, timeliness, performance,
+                  completeness or suitability of the information and materials
+                  found or offered on this website for any particular purpose.
+                  You acknowledge that such information and materials may
+                  contain inaccuracies or errors and we expressly exclude
+                  liability for any such inaccuracies or errors to the fullest
+                  extent permitted by law.
+                </li>
+                <li>
+                  Your use of any information or materials on this website is
+                  entirely at your own risk, for which we shall not be liable.
+                  It shall be your own responsibility to ensure that any
+                  products, services or information available through this
+                  website meet your specific requirements.
+                </li>
+                <li>
+                  This website contains material which is owned by or licensed
+                  to us. This material includes, but is not limited to, the
+                  design, layout, look, appearance and graphics. Reproduction is
+                  prohibited other than in accordance with the copyright
+                  notice, which forms part of these terms and conditions.
+                </li>
 
+
+                </ul>
+                </p>
+
+
+              
+              
+          </CardContent>
+          <CardFooter className="flex justify-center py-6">
+            <Button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              Accept
+            </Button>
+          </CardFooter>
+        </Card>
+      </section>
+    </main>
+  );
+}
