@@ -2,6 +2,7 @@
  * v0 by Vercel.
  * @see https://v0.dev/t/Gup2ic8Tmng
  */
+"use client"
 import {
   CardTitle,
   CardHeader,
