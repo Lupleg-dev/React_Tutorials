@@ -1,7 +1,3 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/KT9APtydfEy
- */
 import { Button } from "@/components/ui/button";
 
 export default function Features() {
