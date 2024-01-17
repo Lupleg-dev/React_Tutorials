@@ -1,9 +1,8 @@
-
-import { CardHeader, CardContent, Card } from "@/components/ui/card"
-import { Label } from "@/components/ui/label"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Button } from "@/components/ui/button"
+import { CardHeader, CardContent, Card } from "@/components/ui/card";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/ui/button";
 
 export default function Component() {
   return (
@@ -12,7 +11,8 @@ export default function Component() {
         <CardHeader className="p-4">
           <h2 className="text-2xl font-bold">Contact Us</h2>
           <p className="text-gray-600">
-            We are here to help and answer any question you might have. We look forward to hearing from you.
+            We are here to help and answer any question you might have. We look
+            forward to hearing from you.
           </p>
         </CardHeader>
         <CardContent className="p-4 space-y-6">
@@ -33,13 +33,16 @@ export default function Component() {
             </div>
             <div className="space-y-2">
               <Label htmlFor="message">Message</Label>
-              <Textarea className="min-h-[100px]" id="message" placeholder="Enter your message" />
+              <Textarea
+                className="min-h-[100px]"
+                id="message"
+                placeholder="Enter your message"
+              />
             </div>
             <Button className="self-end">Submit</Button>
           </form>
         </CardContent>
       </Card>
     </main>
-  )
+  );
 }
-

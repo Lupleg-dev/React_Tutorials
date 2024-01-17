@@ -36,8 +36,8 @@ export default function About() {
                 <CardContent>
                   <p className="text-gray-500">
                     Our mission is to democratize education by making it
-                    accessible, engaging, and personalized for everyone 
-                    all around the world without challenges.
+                    accessible, engaging, and personalized for everyone all
+                    around the world without challenges.
                   </p>
                 </CardContent>
               </Card>
@@ -49,8 +49,8 @@ export default function About() {
                   <p className="text-gray-500">
                     Vision is to build a world where everyone, regardless of
                     their background or circumstances, can have access to a
-                    quality education without special access its an 
-                    opportunity for all.
+                    quality education without special access its an opportunity
+                    for all.
                   </p>
                 </CardContent>
               </Card>

@@ -1,7 +1,3 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/viSG9juV1tD
- */
 import { CardHeader, CardContent, Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -122,7 +118,9 @@ export default function Courses() {
         </Card>
       </div>
       <section className="mt-12">
-        <h2 className="text-2xl text-black font-bold mb-4">Frequently Asked Questions</h2>
+        <h2 className="text-2xl text-black font-bold mb-4">
+          Frequently Asked Questions
+        </h2>
         <div className="space-y-6">
           <Card className="bg-black shadow-xl rounded-lg overflow-hidden">
             <CardHeader className="bg-gray-100 p-4 border-b border-gray-200">

@@ -1,8 +1,4 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/Gup2ic8Tmng
- */
-"use client"
+"use client";
 import {
   CardTitle,
   CardHeader,
@@ -24,15 +20,16 @@ export default function Terms() {
           </CardHeader>
           <CardContent className="px-10 py-6 text-gray-700">
             <p className="my-4 text-sm">
-              Welcome to Lupleg Privacy Policy. If you continue to browse and use this
-              website, you are agreeing to comply with and be bound by the
-              following terms and conditions of use, which together with our
+              Welcome to Lupleg Privacy Policy. If you continue to browse and
+              use this website, you are agreeing to comply with and be bound by
+              the following terms and conditions of use, which together with our
               privacy policy govern our relationship with you in relation to
               this website. If you disagree with any part of these terms and
               conditions, please do not use our website.
             </p>
             <p className="my-4 text-sm">
-              The privacy policy of this website is subject to the following terms of use:
+              The privacy policy of this website is subject to the following
+              terms of use:
               <ul className="list-disc list-inside mt-4 ml-5 text-sm">
                 <li>
                   The content of the pages of this website is for your general
@@ -65,17 +62,11 @@ export default function Terms() {
                   This website contains material which is owned by or licensed
                   to us. This material includes, but is not limited to, the
                   design, layout, look, appearance and graphics. Reproduction is
-                  prohibited other than in accordance with the copyright
-                  notice, which forms part of these terms and conditions.
+                  prohibited other than in accordance with the copyright notice,
+                  which forms part of these terms and conditions.
                 </li>
-
-
-                </ul>
-                </p>
-
-
-              
-              
+              </ul>
+            </p>
           </CardContent>
           <CardFooter className="flex justify-center py-6">
             <Button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">

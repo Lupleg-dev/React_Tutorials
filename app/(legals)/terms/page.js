@@ -1,8 +1,4 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/Gup2ic8Tmng
- */
-"use client"
+"use client";
 import {
   CardTitle,
   CardHeader,
@@ -24,8 +20,8 @@ export default function Terms() {
           </CardHeader>
           <CardContent className="px-10 py-6 text-gray-700">
             <p className="my-4 text-sm">
-              Welcome to Lupleg Terms of use. If you continue to browse and use this
-              website, you are agreeing to comply with and be bound by the
+              Welcome to Lupleg Terms of use. If you continue to browse and use
+              this website, you are agreeing to comply with and be bound by the
               following terms and conditions of use, which together with our
               privacy policy govern our relationship with you in relation to
               this website. If you disagree with any part of these terms and
@@ -33,8 +29,8 @@ export default function Terms() {
             </p>
             <p className="my-4 text-sm">
               The term us or we refers to the owner of the website whose
-              registered. The term
-              you refers to the user or viewer of our website.
+              registered. The term you refers to the user or viewer of our
+              website.
             </p>
             <p className="my-4 text-sm">
               The use of this website is subject to the following terms of use:
