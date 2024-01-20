@@ -17,7 +17,7 @@ export default function About() {
                   About Us
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Learn more about Lupleg, our mission, vision, and values.
+                  Learn more about Lupleg Platform, our mission, vision, and values.
                 </p>
               </div>
             </div>
