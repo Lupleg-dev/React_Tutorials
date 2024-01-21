@@ -44,7 +44,7 @@ export default function Footer() {
                   <FacebookIcon className="text-blue-600 hover:text-blue-600" />
                 </Link>
 
-                <Link href="https://youtube.com/devcircleafrica">
+                <Link href="https://youtube.com/marksikaundi">
                   <YoutubeIcon className="text-red-600 hover:text-red-600" />
                 </Link>
               </div>
